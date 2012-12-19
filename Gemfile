@@ -1,12 +1,13 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.8'
-gem 'thin'
+gem 'thin', :git => "https://github.com/macournoyer/thin.git"
 gem 'rack-ssl'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
+gem 'eventmachine', :git => "https://github.com/eventmachine/eventmachine.git"
 gem 'pusher'
 gem 'em-http-request'
 gem 'pg', '~> 0.11'

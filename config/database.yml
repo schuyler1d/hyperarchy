@@ -1,15 +1,19 @@
 development:
   adapter: postgresql
   encoding: unicode
+  host: localhost
+  port: 5433
   database: hyperarchy_development
   pool: 5
-  username: nathansobo
-  password:
+  username: hyperarchy
+  password: hyperarchy
 
 test:
   adapter: postgresql
   encoding: unicode
+  host: localhost
+  port: 5433
   database: hyperarchy_test
   pool: 5
-  username: nathansobo
-  password:
+  username: hyperarchy
+  password: hyperarchy

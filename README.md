@@ -55,6 +55,12 @@ install Postgres with [Homebrew](http://mxcl.github.com/homebrew/):
 brew install postgres
 ```
 
+If you are on Ubuntu, you can run:
+
+```
+sudo apt-get install postgresql libpq-dev ruby1.9.1-dev rubygems libstdc++6 redis-server
+```
+
 Then follow the instructions (available via `brew info postgres`) to create the
 initial database and start the server. You'll need to edit `config/database.yml`
 and change the username from "nathansobo" to your username or a valid account
