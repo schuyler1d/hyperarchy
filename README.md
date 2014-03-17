@@ -58,7 +58,7 @@ brew install postgres
 If you are on Ubuntu, you can run:
 
 ```
-sudo apt-get install postgresql libpq-dev ruby1.9.1-dev rubygems libstdc++6 redis-server
+sudo apt-get install postgresql libpq-dev ruby1.9.1-dev rubygems libstdc++6 redis-server libxml2-dev libxslt-dev
 ```
 
 Then follow the instructions (available via `brew info postgres`) to create the
